@@ -3,8 +3,7 @@ import React from 'react'
 import './App.css'
 import * as BooksAPI from "./BooksAPI";
 import  BookCategory  from './BookCategory'
-import { Route } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { Route , Link } from "react-router-dom";
 import Search from "./Search";
 import { BallBeat } from 'react-pure-loaders';
 
