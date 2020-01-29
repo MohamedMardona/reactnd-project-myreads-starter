@@ -196,3 +196,11 @@ button:active {
   text-align: center;
   font-size: 0.8em;
 }
+.loader {
+  position: absolute;
+  top: 50vh;
+  bottom: 50vh;
+  left: 40vw;
+  right: 40vw;
+  z-index: 999;
+}
