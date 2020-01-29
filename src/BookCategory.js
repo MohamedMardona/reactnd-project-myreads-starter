@@ -6,9 +6,6 @@ export default  class BookCategory extends Component {
     const bookShelf = this.props.bookShelf;
     const Books = this.props.Books;
     const filteredBooks = bookShelf ? Books.filter(book => book.shelf === bookShelf) : Books;
-    // console.log('bookShelf',bookShelf);
-    // console.log('Books',Books);
-    // console.log('filteredBooks',filteredBooks);
 
     return (
       <ol className="books-grid">
