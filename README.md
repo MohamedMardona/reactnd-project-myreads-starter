@@ -7,9 +7,9 @@ Of course, you are free to start this project from scratch if you wish! Just be 
 ## TL;DR
 
 To get started developing right away:
-
+* git clone (https://github.com/MohamedMardona/reactnd-project-myreads-starter.git)
 * install all project dependencies with `npm install`
-* start the development server with `npm start`
+* start the development server with `npm start` or `yarn start`
 
 ## What You're Getting
 ```bash
@@ -22,7 +22,10 @@ To get started developing right away:
 │   └── index.html # DO NOT MODIFY
 └── src
     ├── App.css # Styles for your app. Feel free to customize this as you desire.
-    ├── App.js # This is the root of your app. Contains static HTML right now.
+    ├── App.js # This is the root of your app. Contains App Components.
+    ├── BookCategory.js # This is Component. Contains all books and books category.
+    ├── BooksItem.js # This is Component. Contains bookshelf , this component enable us to select bookshelf.
+    ├── Search.js # This is Component. in this component You can search about book.
     ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
     ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
     ├── icons # Helpful images for your app. Use at your discretion.
